@@ -1,0 +1,97 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#myBtn {  /*button top*/
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 100%;
+}
+#myBtn:hover {  /*button top*/
+  background-color: #555;
+}
+.box-visi h1{
+  text-align: center;
+  margin: -150px 0px 0px 115px;
+  letter-spacing:7px;
+}
+.box-visi{
+  width: 400px;
+  height: 400px;
+  position:relative;
+  margin: 100px;
+  background-color:white; 
+  margin-left: 200px;
+  transition: 0.5s;
+  border: 10px solid pink;
+}
+.visi-misi1{
+  width: 300px;
+  height: 300px;
+  position:absolute;
+  margin: auto;
+  background-color:pink;
+  margin-left: 260px;
+  margin-top: 70px;
+    
+}
+.visi-misi1 p{
+  text-align: center;
+  margin-top: 60px;
+  margin-right: 2px;
+  line-height: 2;
+  color: white;
+  font-size: 19px;
+  font-weight: 600;
+}
+.box-visi:hover{
+  opacity: 0;
+}
+.box-misi{
+  width: 400px;
+  height: 400px;
+  position:relative;
+  margin: -515px 0px 100px 800px;
+  background-color:white;
+  transition: 0.5s;
+}
+
+.box-misi:hover{
+  opacity: 0;
+}
+.box-misi h1{
+  text-align: center;
+  margin: -400px 0px 0px 120px;
+  letter-spacing:7px;
+}
+  
+
+.visi-misi2{
+  width: 300px;
+  height: 300px;
+  position:absolute;
+  margin: auto;
+  background-color:white;
+  margin-left: 845px;
+  margin-top:50px;
+    
+  
+}
+.visi-misi2 p{
+  text-align: center;
+  margin-top: 40px;
+  line-height: 2;
+  color: grey;
+  font-size: 19px;
+  font-weight: 600;
+}
