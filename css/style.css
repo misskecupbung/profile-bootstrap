@@ -33,14 +33,14 @@ html {
   background-color:white; 
   margin-left: 200px;
   transition: 0.5s;
-  border: 10px solid pink;
+  border: 10px solid #f78259;
 }
 .visi-misi1{
   width: 300px;
   height: 300px;
   position:absolute;
   margin: auto;
-  background-color:pink;
+  background-color: #f8eeee;
   margin-left: 260px;
   margin-top: 70px;
     
@@ -91,7 +91,7 @@ html {
   text-align: center;
   margin-top: 40px;
   line-height: 2;
-  color: grey;
+  color: #eb4559;
   font-size: 19px;
   font-weight: 600;
 }
